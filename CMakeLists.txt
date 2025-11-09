@@ -1,7 +1,9 @@
+# Copyright (c) 2024 Yves W
+# SPDX-License-Identifier: BSD-3-Clause
+
 cmake_minimum_required(VERSION 3.22.0)
 
 project(cmparser)
-
 
 add_library(cmparser
         LexerParser/cmListFileLexer.c
